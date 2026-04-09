@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f1c18;
+  background: #f6f2ea;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f6f2ea;
+}
+
+* {
+  box-sizing: border-box;
+}
